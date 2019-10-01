@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   .logo {
-    margin: 18px 0 0 30px;
+    margin: 16px 0 0 30px;
     p {
       font-size: 20px;
       font-family: 'open sans';
@@ -11,6 +11,17 @@
         margin-right: 6px;
         font-size: 22px;
       }
+    }
+  }
+  .title {
+    background: red;
+    h1 {
+      margin-top: 22px;
+      font-family: 'satisfy';
+      font-size: 36px;
+      text-transform: capitalize;
+      text-align: center;
+      font-weight: normal;
     }
   }
 }
