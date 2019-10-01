@@ -1,0 +1,12 @@
+.slider-section {
+  height: 650px;
+  background: burlywood;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  .grid {
+    padding: 50px;
+    .text {
+      color: white;
+    }
+  }
+}
