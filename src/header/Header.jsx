@@ -2,8 +2,8 @@ import React from 'react';
 import './Header.scss';
 import Button from '../Button';
 
-const Header = ({ bg, h }) => (
-  <div className="header" style={{ background: bg, height: h }}>
+const Header = ({ h }) => (
+  <div className="header" style={{ height: h }}>
     <Logo num=" 1-800-1234-567 " c="orange" />
     <Title text="brittancy pierce" />
     <Btn />
