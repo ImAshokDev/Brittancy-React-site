@@ -4,9 +4,40 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   .grid {
-    padding: 50px;
+    padding: 20px;
     .text {
       color: white;
+      text-align: center;
+      transition-delay: 0.1s;
+      border: 1px solid #ffffff00;
+      height: 100%;
+      h3 {
+        margin: 0;
+        padding-top: 210px;
+        font-size: 32px;
+        text-transform: capitalize;
+        font-family: 'bevan';
+        letter-spacing: 2px;
+      }
+      p {
+        height: 36px;
+        width: 96px;
+        margin: 20px auto;
+        padding: 0;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'roboto';
+        letter-spacing: 2px;
+        border-bottom: 2px solid #ff8d00;
+        span {
+          margin-left: 4px;
+        }
+      }
+    }
+    .text:hover {
+      height: 100%;
+      border: 1px solid rgb(230, 230, 230);
+      cursor: pointer;
     }
   }
 }
