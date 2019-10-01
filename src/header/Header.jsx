@@ -6,7 +6,7 @@ const Header = ({ bg, h }) => (
   <div className="header" style={{ background: bg, height: h }}>
     <Logo num=" 1-800-1234-567 " c="orange" />
     <Title text="brittancy pierce" />
-    <Btn bg="yellow" />
+    <Btn />
   </div>
 );
 
@@ -23,18 +23,9 @@ const Title = ({ text }) => (
     <h1>{text}</h1>
   </div>
 );
-const Btn = ({ bg }) => (
-  <div className="btn" style={{ background: bg }}>
-    <Button
-      name="book now"
-      bg="orange"
-      c="white"
-      fs="14px"
-      w="100px"
-      h="40px"
-      b="none"
-      u="none"
-    />
+const Btn = () => (
+  <div className="btn">
+    <Button name="book now" fs="20px" w="180px" h="52px" ff="archivo black" />
   </div>
 );
 export default Header;
