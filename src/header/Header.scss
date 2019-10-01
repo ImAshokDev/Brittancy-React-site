@@ -1,0 +1,16 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  .logo {
+    margin: 18px 0 0 30px;
+    p {
+      font-size: 20px;
+      font-family: 'open sans';
+      font-weight: normal;
+      i {
+        margin-right: 6px;
+        font-size: 22px;
+      }
+    }
+  }
+}

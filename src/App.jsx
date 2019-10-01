@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.scss';
+import Header from './header/Header';
 
-function App() {
-  return <div className="App">pdsdddsdd</div>;
-}
-
+const App = () => (
+  <div className="brittancy">
+    <Header bg="silver" h="100px" />
+  </div>
+);
 export default App;
