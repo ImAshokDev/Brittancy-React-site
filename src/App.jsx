@@ -6,6 +6,7 @@ import Slider from './slider/Slider';
 import About from './about/About';
 import Video from './video/Video';
 import img from './video/video-bg.jpg';
+import Price from './prices/Price';
 
 const App = () => (
   <div className="brittancy">
@@ -14,6 +15,7 @@ const App = () => (
     <Slider />
     <About />
     <Video image={img} />
+    <Price />
   </div>
 );
 export default App;
