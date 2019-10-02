@@ -1,0 +1,38 @@
+.profile-section {
+  height: 550px;
+  background-position: top;
+  .profile-block {
+    height: 400px;
+    width: 1160px;
+    margin: auto;
+    background: silver;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+    .author {
+      background: greenyellow;
+      padding: 50px 25px 0 50px;
+
+      .head {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        height: 100px;
+        .left {
+          height: 100px;
+          background: red;
+          .pic {
+            height: 80px;
+            width: 80px;
+            margin: 6px 0 0 0;
+            background-size: cover;
+            border-radius: 50%;
+          }
+        }
+        .right {
+          height: 100px;
+          background: yellow;
+        }
+      }
+    }
+  }
+}
