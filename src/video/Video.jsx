@@ -3,13 +3,20 @@ import './Video.scss';
 
 const Video = ({ image }) => (
   <div className="video-section" style={{ backgroundImage: `url(${image})` }}>
-    <Video />
+    <VideoBlock ff="Poppins" tt="capitalize" />
   </div>
 );
 
-const VideoBlock = () => (
-  <div className="video-block">
-    <p>1</p>
+const VideoBlock = ({ ff, tt }) => (
+  <div className="video-block" style={{ fontFamily: ff, textTransform: tt }}>
+    <div className="play-button">
+      <span>&#8227;</span>
+    </div>
+    <div className="circle">
+      <i className="far fa-circle" />
+    </div>
+    <h2>how i create</h2>
+    <h6>outstanding paintings</h6>
   </div>
 );
 
