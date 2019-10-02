@@ -13,7 +13,7 @@ const AboutBlock = () => (
     <Right />
   </div>
 );
-const Left = ({ txt1 }) => (
+const Left = ({ txt1, ff }) => (
   <div className="left-block">
     <h1>{txt1}</h1>
     <h5>
@@ -29,10 +29,10 @@ const Left = ({ txt1 }) => (
     <h6>
       weekdays:
       <span>8:00-20:00</span>
-      weekdays
+      Weekdays
       <span>9:00-18:00</span>
     </h6>
-    <Button name="book now" fs="18px" w="220px" h="70px" ff="roboto" />
+    <Button name="book now" fs="18px" w="220px" h="65px" ff="roboto" />
   </div>
 );
 const Right = () => (

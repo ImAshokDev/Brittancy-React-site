@@ -4,28 +4,67 @@
   background: burlywood;
   .about-block {
     height: 570px;
-    width: 1180px;
+    width: 1150px;
     background: silver;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1.1fr;
-
-    button {
-      outline: none;
-
-      background: white;
-      color: black;
-      border: 3px solid #ff8d00;
-      transition-duration: 1s;
-      p {
-        margin: 0;
+    .left-block {
+      h1 {
+        margin: 50px 0 30px 0;
+        font-size: 56px;
+        font-weight: bolder;
+        font-family: 'roboto';
+        text-transform: capitalize;
+        text-align: justify;
       }
-    }
-    button:hover {
-      background: #ff8d00;
-      border: 3px solid #ff8d00;
-      color: white;
-      cursor: pointer;
+      h5 {
+        margin: 15px 100px 0 0;
+        font-size: 18px;
+        font-weight: normal;
+        font-family: 'roboto';
+        text-align: justify;
+      }
+      p {
+        margin: 30px 46px 0 0;
+        font-size: 14px;
+        line-height: 2;
+        font-weight: normal;
+        font-family: 'roboto';
+        opacity: 0.5;
+      }
+      h6 {
+        margin: 30px 0;
+        font-size: 14px;
+        font-family: 'roboto';
+        text-transform: capitalize;
+        text-align: justify;
+
+        span {
+          color: #ff8d00;
+          margin: 0 30px 0 10px;
+        }
+      }
+      button {
+        margin: 20px 40px;
+        outline: none;
+        background: white;
+        color: black;
+        border: 3px solid #ff8d00;
+        transition-duration: 1s;
+        b {
+          text-align: center;
+          font-family: 'poppins';
+          font-weight: bold;
+          margin: 0;
+        }
+      }
+      button:hover {
+        background: #ff8d00;
+        border: 3px solid #ff8d00;
+        color: white;
+        cursor: pointer;
+      }
     }
   }
 }

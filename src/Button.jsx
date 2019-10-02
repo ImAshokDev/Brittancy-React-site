@@ -12,7 +12,7 @@ const Button = ({
       fontFamily: ff,
     }}
   >
-    <p>{name}</p>
+    <b>{name}</b>
   </button>
 );
 export default Button;
