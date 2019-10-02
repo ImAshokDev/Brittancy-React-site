@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.scss';
 import Button from '../Button';
+import img1 from './images/bg.png';
+import img2 from './images/01.jpg';
 
 const About = () => (
   <div className="about-section">
@@ -10,10 +12,10 @@ const About = () => (
 const AboutBlock = () => (
   <div className="about-block">
     <Left txt1="about me" />
-    <Right />
+    <Right image1={img1} image2={img2} />
   </div>
 );
-const Left = ({ txt1, ff }) => (
+const Left = ({ txt1 }) => (
   <div className="left-block">
     <h1>{txt1}</h1>
     <h5>
@@ -32,12 +34,12 @@ const Left = ({ txt1, ff }) => (
       Weekdays
       <span>9:00-18:00</span>
     </h6>
-    <Button name="book now" fs="18px" w="220px" h="65px" ff="roboto" />
+    <Button name="book now" fs="18px" w="230px" h="65px" ff="roboto" />
   </div>
 );
-const Right = () => (
-  <div className="right-block">
-    <p>1</p>
+const Right = ({ image1, image2 }) => (
+  <div className="right-block" style={{ backgroundImage: `url(${image1})` }}>
+    <img src={image2} alt="" />
   </div>
 );
 export default About;

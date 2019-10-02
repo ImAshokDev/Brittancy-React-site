@@ -1,20 +1,19 @@
 .about-section {
-  height: 600px;
-  padding: 20px 0;
-  background: burlywood;
+  height: 670px;
+  padding: 35px 0;
   .about-block {
-    height: 570px;
+    height: 670px;
     width: 1150px;
-    background: silver;
+
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1.1fr;
     .left-block {
       h1 {
-        margin: 50px 0 30px 0;
-        font-size: 56px;
+        margin: 100px 0 35px 0;
+        font-size: 60px;
         font-weight: bolder;
-        font-family: 'roboto';
+        font-family: 'Archivo Black';
         text-transform: capitalize;
         text-align: justify;
       }
@@ -34,7 +33,7 @@
         opacity: 0.5;
       }
       h6 {
-        margin: 30px 0;
+        margin: 25px 0;
         font-size: 14px;
         font-family: 'roboto';
         text-transform: capitalize;
@@ -46,7 +45,7 @@
         }
       }
       button {
-        margin: 20px 40px;
+        margin: 30px 40px;
         outline: none;
         background: white;
         color: black;
@@ -64,6 +63,14 @@
         border: 3px solid #ff8d00;
         color: white;
         cursor: pointer;
+      }
+    }
+    .right-block {
+      background-position: bottom;
+      img {
+        width: 440px;
+        height: 550px;
+        margin: 50px 0 0 80px;
       }
     }
   }
