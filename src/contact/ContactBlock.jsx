@@ -30,14 +30,12 @@ const Information = ({ h2 }) => (
       <div className="right">
         <p>
           <span>Weekdays:</span>
-{' '}
-8:00-20:00
-</p>
+          8:00-20:00
+        </p>
         <p>
           <span>Weekdays:</span>
-{' '}
-9:00-18:00
-</p>
+          9:00-18:00
+        </p>
       </div>
     </div>
     <div className="info3">
