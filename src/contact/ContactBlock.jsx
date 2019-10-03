@@ -2,6 +2,7 @@ import React from 'react';
 import img1 from './images/01.jpg';
 import img2 from './images/02.jpg';
 import img3 from './images/03.jpg';
+import Button from '../Button';
 
 const ContactBlock = () => (
   <div className="contact-block">
@@ -115,6 +116,8 @@ const Chat = ({ h2, op1, op2, op3, op4 }) => (
         <i className="far fa-comment-alt" />
       </div>
     </div>
+
+    <Button name="submit" fs="18px" w="210px" h="65px" ff="roboto" />
   </div>
 );
 
