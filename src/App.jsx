@@ -10,6 +10,7 @@ import Price from './prices/Price';
 import Profile from './profile/Profile';
 import img2 from './profile/images/bg.jpg';
 import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 const App = () => (
   <div className="brittancy">
@@ -21,6 +22,7 @@ const App = () => (
     <Price />
     <Profile image={img2} />
     <Contact />
+    <Footer />
   </div>
 );
 export default App;
