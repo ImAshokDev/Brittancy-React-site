@@ -18,14 +18,14 @@ const ProfileBlock = () => (
       h3="I’m recommending you to all my friends"
       txt="My sweetheart loved the portrait! You not only captured her image so well but unveiled and projected my feelings and thoughts through it. The depth of your work is really impressive. You are the best and I will recommend you and your services to all my friends!"
       h6="JEFF WILLIAMS"
-      span="sales manager"
+      span="Sales manager"
     />
     <Author
       image={img2}
       h3="Thank you for your creative paintings!"
-      txt="You're a gifted and masterful artist who is able to capture the essence of people with such depth and accuracy, and at the same time weave in the intricacies of a beautifully composed grand work of art. Each of your pieces is unique, yet identifiably bears your signature style."
+      txt="You're a gifted and masterful  who is able to capture the essence of people with such depth and accuracy, and at the same time weave in the intricacies of a beautifully composed grand work of art. Each of your pieces is unique, yet identifiably bears your signature style."
       h6="SAMANTHA CLARKSON"
-      span="journalist"
+      span="Journalist"
     />
   </div>
 );

@@ -15,7 +15,7 @@ const Author = ({
 
     <p>{txt}</p>
     <h6>
-      <div>1</div>
+      <div></div>
       {h6}
       <span>{span}</span>
     </h6>
