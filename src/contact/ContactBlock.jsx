@@ -7,7 +7,13 @@ const ContactBlock = () => (
   <div className="contact-block">
     <Information h2="contact info" />
     <Blog h2="latest blog posts" />
-    <Message h2="get in touch" />
+    <Chat
+      h2="get in touch"
+      op1="Choose a preferred Service"
+      op2="Portraits "
+      op3="Abstract Art"
+      op4="Pop Art"
+    />
   </div>
 );
 
@@ -83,9 +89,33 @@ const Text = ({ image, p, h6 }) => (
     </div>
   </div>
 );
-const Message = ({ h2 }) => (
-  <div className="message">
+const Chat = ({ h2, op1, op2, op3, op4 }) => (
+  <div className="chat">
     <h2>{h2}</h2>
+    <div className="custom-select">
+      <select>
+        <option value="1">{op1}</option>
+        <option value="2">{op2}</option>
+        <option value="3">{op3}</option>
+        <option value="4">{op4}</option>
+      </select>
+      <div>
+        <i className="fas fa-bars" />
+      </div>
+    </div>
+    <div className="date">
+      <input type="text" placeholder="Select a Day" />
+      <div>
+        <i className="far fa-calendar-check" />
+      </div>
+    </div>
+    <div className="message">
+      <textarea name="text" placeholder="Message" />
+      <div>
+        <i className="far fa-comment-alt" />
+      </div>
+    </div>
   </div>
 );
+
 export default ContactBlock;
