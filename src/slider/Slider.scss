@@ -8,7 +8,7 @@
     .text {
       color: white;
       text-align: center;
-      transition-delay: 0.1s;
+      transition-duration: 0.3s;
       border: 1px solid #ffffff00;
       height: 100%;
       h3 {
@@ -36,7 +36,7 @@
     }
     .text:hover {
       height: 100%;
-      border: 1px solid rgb(230, 230, 230);
+      border: 1px solid #e6e6e694;
       cursor: pointer;
     }
   }
