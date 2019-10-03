@@ -72,7 +72,7 @@ const Blog = ({ h2 }) => (
 const Text = ({ image, p, h6 }) => (
   <div className="text">
     <div className="left">
-      <div style={{ backgroundImage: `url(${image})` }} />
+      <img src={image} alt="" />
     </div>
     <div className="right">
       <p>{p}</p>
