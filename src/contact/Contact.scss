@@ -1,9 +1,9 @@
 .contact-section {
-  height: 580px;
+  height: 530px;
   background-color: #242424;
-  padding-top: 70px;
+  padding-top: 65px;
   .contact-block {
-    height: 500px;
+    height: 460px;
     width: 1200px;
     margin: auto;
     display: grid;
@@ -126,25 +126,24 @@
         color: white;
       }
       .text {
-        height: 120px;
+        height: 110px;
         margin: 10px 0;
         display: grid;
-        grid-template-columns: 1.2fr 3fr;
+        grid-template-columns: 1fr 3fr;
         .left {
-          height: 120px;
           img {
-            margin: 10px 10px 5px 0;
-            height: 94px;
-            width: 90px;
+            margin: 14px 0 5px 0;
+            height: 86px;
+            width: 82px;
             border-radius: 7px;
           }
         }
         .right {
           color: white;
-          height: 120px;
+
           margin-left: 14px;
           p {
-            margin: 16px 0 0 0;
+            margin: 12px 0 0 0;
             font-size: 16px;
             font-family: 'poppins';
             line-height: 1.4;
@@ -180,12 +179,12 @@
         color: white;
       }
       .custom-select {
-        height: 75px;
+        height: 65px;
         color: white;
         select {
           margin: 10px 0;
           background: #525252;
-          height: 60px;
+          height: 52px;
           width: 100%;
           padding-left: 60px;
           outline: none;
@@ -206,7 +205,7 @@
         }
         div {
           height: 30px;
-          margin: -53px 0 0 24px;
+          margin: -48px 0 0 24px;
           i {
             font-size: 22px;
           }
@@ -214,13 +213,13 @@
       }
 
       .date {
-        height: 60px;
-        margin: 15px 0;
+        height: 55px;
+        margin: 12px 0;
         color: white;
         input {
           background: #525252;
-          height: 55px;
-          width: 445px;
+          height: 52px;
+          width: 430px;
           padding: 0 0 0 60px;
           outline: none;
           border: none;
@@ -235,20 +234,20 @@
         }
         div {
           height: 30px;
-          margin: -43px 0 0 20px;
+          margin: -39px 0 0 20px;
           i {
             font-size: 24px;
           }
         }
       }
       .message {
-        height: 170px;
+        height: 160px;
         margin: 0;
         color: white;
         textarea {
           background: #525252;
-          height: 150px;
-          width: 442px;
+          height: 130px;
+          width: 427px;
           padding: 12px 0 0 63px;
           outline: none;
           border: none;
@@ -262,7 +261,7 @@
           font-size: 14px;
         }
         div {
-          margin: -158px 0 0 20px;
+          margin: -139px 0 0 20px;
           i {
             font-size: 24px;
           }
@@ -270,7 +269,7 @@
       }
     }
     button {
-      margin: 15px 0 0 0;
+      margin: 0;
       text-align: center;
       outline: none;
       background: #ff8d00;
