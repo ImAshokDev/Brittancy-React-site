@@ -1,0 +1,34 @@
+.picks-section {
+  height: 490px;
+  padding-top: 60px;
+  background: #ececec;
+  .picks-block {
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .img {
+      img {
+        height: 420px;
+        width: 100%;
+      }
+    }
+  }
+  p {
+    height: 30px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'karla';
+    font-weight: bolder;
+    span {
+      transition-delay: 0.3s;
+      transition-duration: 0.3s;
+      color: #ff8d00;
+    }
+    span:hover {
+      color: violet;
+      cursor: pointer;
+    }
+  }
+}

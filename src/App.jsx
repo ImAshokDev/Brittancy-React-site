@@ -11,6 +11,7 @@ import Profile from './profile/Profile';
 import img2 from './profile/images/bg.jpg';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
+import Picks from './picks/Picks';
 
 const App = () => (
   <div className="brittancy">
@@ -20,6 +21,7 @@ const App = () => (
     <About />
     <Video image={img1} />
     <Price />
+    <Picks />
     <Profile image={img2} />
     <Contact />
     <Footer />
