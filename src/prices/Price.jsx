@@ -53,7 +53,7 @@ const Cards = ({
 }) => (
   <div className="cards">
     <h4>{h4}</h4>
-    <div></div>
+    <div />
     <p>
       {p1}
 

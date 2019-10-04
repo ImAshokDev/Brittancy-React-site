@@ -90,7 +90,9 @@ const Text = ({ image, p, h6 }) => (
     </div>
   </div>
 );
-const Chat = ({ h2, op1, op2, op3, op4 }) => (
+const Chat = ({
+ h2, op1, op2, op3, op4 
+}) => (
   <div className="chat">
     <h2>{h2}</h2>
     <div className="custom-select">
