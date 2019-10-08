@@ -16,7 +16,7 @@ import Picks from './picks/Picks';
 const App = () => (
   <div className="brittancy">
     <Header h="110px" />
-    <Menu />
+    <Menu list={['about me', 'services', 'gallery', 'contacts', 'pages']} />
     <Slider />
     <About />
     <Video image={img1} />

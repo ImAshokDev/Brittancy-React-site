@@ -1,15 +1,13 @@
 import React from 'react';
 import './Menu.scss';
 
-const Menu = () => (
+const Menu = ({ list }) => (
   <div className="menu">
     <ul>
       <li className="home">home</li>
-      <li>about me</li>
-      <li>services</li>
-      <li>gallery</li>
-      <li>contacts</li>
-      <li>pages</li>
+      {list.map((d) => (
+        <li>{d}</li>
+      ))}
     </ul>
   </div>
 );
